@@ -1,0 +1,221 @@
+* {
+                box-sizing: border-box;
+            }
+
+    @font-face {
+    font-family: RiverHack; 
+    src: url(../fonts1/RIVERHACK_CYR_dobavleny_Yoyo.otf); 
+   }
+
+   @font-face{
+    font-family: Righteous;
+    src: url(../fonts1/Righteous-Regular.ttf);
+   }
+
+   @font-face {
+    font-family: RiverHack; 
+    src: url(../fonts1/RIVERHACK_CYR_dobavleny_Yoyo.otf);
+   } 
+
+body {
+    border: 1px solid red;
+    width: 100%;
+    max-width: 1590px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+/*-------------------------------------Resums с фото-------------------------------------------*/
+
+header {
+     display: grid;
+    z-index: -1;
+     
+}
+
+.das > * {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1; 
+}
+
+.gors{
+    opacity: 0.9;
+}
+
+header{
+    width: 100%;
+}
+
+.resums1 {
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    font-size: 100px;
+    font-family: RiverHack;
+    background-image: linear-gradient(to bottom, #FFFFFF, #573CED);
+    background-clip: text;
+    color: transparent;
+    margin: auto;
+    z-index: 1;
+}
+
+p {
+     text-align: center;
+     margin: auto;
+     color: #FFFFFF;
+    
+}
+
+.resums2{
+    padding-bottom: 250px;
+    font-size: 20px;
+    font-family: Righteous;
+    z-index: 1;
+}
+.resums3{
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Righteous;
+    z-index: 1;
+}
+
+/*------------------------------------------Меню-----------------------------------------------*/
+.men {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+
+.menu {
+    margin-top: 30px;
+    
+}
+
+.menu1 {
+    margin-top: 130px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.menu2 {
+    position: absolute;
+    z-index: 1;
+}
+
+.flexs {
+    width: 100%;
+    height: 300px; 
+     
+}
+
+.flexs1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 70px;
+    padding-left: 120px;
+}
+
+.flexs1 li {
+   width: 400px;
+    height: 200px;
+    
+    z-index: 3;
+    margin-top: 190px;
+    
+}
+
+ul {
+    list-style-type: none;   
+
+}
+
+.foto1 {
+    z-index: 4;
+    position: relative;
+    
+}
+
+
+.text1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: Righteous;
+    position: absolute;
+    left: 0; 
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+.foto2 {
+    z-index: 4;
+    position: relative;
+}
+
+.text2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: Righteous;
+    position: absolute;
+    left: 0; 
+    margin-left: 15%;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.foto3 {
+    z-index: 4;
+    position: relative;
+}
+
+.text3 {
+    color: #FFFFFF;
+    font-size: 30px;
+    position: absolute;
+    font-family: Righteous;
+    left: 0; 
+    margin-left: 25%;
+    margin-top: 20%;
+}
+/*-----------------------------------------Контент---------------------------------------------*/
+.contant {
+    border: 4px solid #373E81; 
+    background-color: transparent;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border-radius: 60px;
+}
+
+.textcontent {
+    color: #FFFFFF;
+    font-family: Righteous;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.lin2 {
+    margin-top: 300px;
+    height: 100px;
+}
+
+/*------------------------------------------Подвал---------------------------------------------*/
+.podval {
+    width: 95%;
+    height: 150px;
+    border-radius: 500px 500px 0 0;
+    background-color: #E1DFDF;
+    opacity: 0.3;
+    padding-top: 100px;
+    margin-left: 2%;
+    margin-top: 100px;
+}
+
+.cop {
+    color: #000000;
+}
+
+
