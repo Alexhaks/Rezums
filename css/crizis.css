@@ -79,6 +79,17 @@ p {
     margin-top: 50px;
     display: inline-block;
 }
+
+/*-----------------------------------------------------Снайперка-----------------------------------------------------------*/
+
+.snipe {
+    width: 300px;
+    height: 200px;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
 /*------------------------------------------------------Контент_maskirovka-------------------------------------------------*/
 
 .maskirovka_foto {
@@ -95,7 +106,6 @@ p {
     z-index: 0;
     width: 100%;
     height: 600px;
-    border: 1px solid red;
 }
 
 .Text_maskirovka {
@@ -132,7 +142,6 @@ p {
     z-index: 0;
     width: 100%;
     height: 600px;
-    border: 1px solid red;
 }
 
 .Text_zashita {
@@ -168,7 +177,6 @@ p {
     z-index: 0;
     width: 100%;
     height: 600px;
-    border: 1px solid red;
 }
 
 .Text_max_bron {
@@ -205,7 +213,6 @@ p {
     z-index: 0;
     width: 100%;
     height: 600px;
-    border: 1px solid red;
 }
 
 .Text_speed {
@@ -241,7 +248,6 @@ p {
     z-index: 0;
     width: 100%;
     height: 600px;
-    border: 1px solid red;
 }
 
 .Text_vizor {
@@ -278,7 +284,6 @@ p {
     z-index: 0;
     width: 100%;
     height: 600px;
-    border: 1px solid red;
 }
 
 .Text_prochnost {
