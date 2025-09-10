@@ -85,24 +85,24 @@ p {
     width: 100%;
     height: 700px;
     position: relative;
+    
 }
 
 
 .menu {
     margin-top: 30px;
-    
 }
 
 .menu1 {
     height: 500px;
     margin-top: 30px;
-    position: relative;
+    position: absolute;
     z-index: 2;
 
 }
 
 .menu2 {
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
 
@@ -118,17 +118,17 @@ p {
     display: flex;
     gap: 70px;
     padding-left: 120px;
+flex-wrap: wrap
 }
 
 .flexs1 li {
-   width: 400px;
+    width: 400px;
     height: 200px;
     margin-top: 190px;
 }
 
 ul {
     list-style-type: none;   
-
 }
 
 .foto1 {
