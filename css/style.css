@@ -96,13 +96,13 @@ p {
 .menu1 {
     height: 500px;
     margin-top: 30px;
-    position: absolute;
+    position: relative;
     z-index: 2;
 
 }
 
 .menu2 {
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
 
