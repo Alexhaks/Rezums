@@ -23,6 +23,8 @@ body {
     max-width: 1590px;
     margin: 0 auto;
     background-color: #000000;
+    position: relative;
+    z-index: 0;
 }
 
 /*-------------------------------------Resums с фото-------------------------------------------*/
