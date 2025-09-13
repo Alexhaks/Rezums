@@ -50,7 +50,6 @@
     }
 
     .contant{
-    
         height: 170px;
     }
 
@@ -89,5 +88,34 @@
 
     .men {
         height: 250px;
+    }
+}
+
+@media(max-width: 328px) {
+    .flexs1 li {
+        width: 50px;
+        height: 30px;
+    }
+
+    .flexs1 {
+        gap: 50px;
+        padding-left: 40px;
+    }
+
+    .textcontent {
+        font-size: 7px;
+        padding-top: 40px;
+    }
+
+    .contant{
+        height: 130px;
+    }
+
+    .menu2{
+        height: 250px;
+    }
+
+    .men {
+        height: 200px;
     }
 }
