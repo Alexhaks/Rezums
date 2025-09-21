@@ -91,17 +91,14 @@ p {
     
 }
 
-
 .menu {
     margin-top: 30px;
 }
 
 .menu1 {
-    height: 500px;
     margin-top: 30px;
     position: absolute;
     z-index: 2;
-
 }
 
 .menu2 {

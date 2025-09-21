@@ -50,6 +50,7 @@
     }
 
     .contant{
+        width: 60%;
         height: 170px;
     }
 
@@ -89,6 +90,9 @@
     .men {
         height: 250px;
     }
+    .contant {
+        width: 60%;
+    }
 }
 
 @media(max-width: 328px) {
@@ -108,6 +112,7 @@
     }
 
     .contant{
+        width: 70%;
         height: 130px;
     }
 
@@ -118,4 +123,8 @@
     .men {
         height: 200px;
     }
+}
+
+@media(max-width: 840px) {
+
 }
